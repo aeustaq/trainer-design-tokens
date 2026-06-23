@@ -8,32 +8,44 @@
   /* Reset default Tailwind configuration */
   --color-*: initial;
 
+  /* FontFamily */
+  --font-text-body-family: var(--font-family-body);
+  --font-text-label-family: var(--font-family-body);
+  --font-text-heading-2-family: var(--font-family-heading);
+  --font-text-heading-1-family: var(--font-family-heading);
+
+  /* FontSize */
+  --text-body-size: var(--text-font-size-16);
+  --text-heading-2-size: var(--text-font-size-20);
+  --text-heading-1-size: var(--text-font-size-24);
+  --text-caption-size: var(--text-font-size-12);
+  --text-label-size: var(--text-font-size-14);
+
   /* Dimension */
-  --spacing-text-body-size: var(--spacing-font-size-16);
   --spacing-text-body-weight: var(--spacing-font-weight-400);
-  --spacing-text-body-line-height: var(--spacing-line-height-normal);
-  --spacing-text-heading-2-size: var(--spacing-font-size-20);
   --spacing-text-heading-2-weight: var(--spacing-font-weight-600);
-  --spacing-text-heading-2-line-height: var(--spacing-line-height-tight);
-  --spacing-text-heading-1-size: var(--spacing-font-size-24);
   --spacing-text-heading-1-weight: var(--spacing-font-weight-700);
-  --spacing-text-heading-1-line-height: var(--spacing-line-height-tight);
-  --spacing-text-caption-size: var(--spacing-font-size-12);
   --spacing-text-caption-weight: var(--spacing-font-weight-400);
-  --spacing-text-caption-line-height: var(--spacing-line-height-tight);
-  --spacing-text-label-size: var(--spacing-font-size-14);
   --spacing-text-label-weight: var(--spacing-font-weight-500);
-  --spacing-text-label-line-height: var(--spacing-line-height-normal);
   --spacing-xs: var(--spacing-4);
   --spacing-s: var(--spacing-8);
   --spacing-m: var(--spacing-12);
   --spacing-l: var(--spacing-16);
   --spacing-xl: var(--spacing-24);
   --spacing-xxl: var(--spacing-32);
-  --spacing-radius-sm: var(--spacing-radius-4);
-  --spacing-radius-md: var(--spacing-radius-6);
-  --spacing-radius-lg: var(--spacing-radius-8);
-  --spacing-radius-xl: var(--spacing-radius-12);
+
+  /* LineHeight */
+  --leading-text-body-line-height: var(--leading-line-height-normal);
+  --leading-text-heading-2-line-height: var(--leading-line-height-tight);
+  --leading-text-heading-1-line-height: var(--leading-line-height-tight);
+  --leading-text-caption-line-height: var(--leading-line-height-tight);
+  --leading-text-label-line-height: var(--leading-line-height-normal);
+
+  /* BorderRadius */
+  --radius-sm: var(--radius-4);
+  --radius-md: var(--radius-6);
+  --radius-lg: var(--radius-8);
+  --radius-xl: var(--radius-12);
 
   /* Color */
   --bg-color-primary: var(--color-cream);
